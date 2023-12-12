@@ -9,4 +9,6 @@ class Animal {
   }
 }
 
-
+// Create a new instance of Animal
+let dog = new Animal('dog', 4);
+console.log(dog.describe()); // dog has 4 legs

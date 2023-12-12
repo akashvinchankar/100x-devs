@@ -5,35 +5,35 @@
 
 // Run each function to see the output, play and learn by doing.
 
-// Length
+// Length --> returns the length of the string
 function getLength(str) {
   console.log("Original String:", str);
   console.log("Length:", str.length);
 }
 getLength("Hello World");
 
-// indexOf
+// indexOf --> returns the index of the first occurrence of the specified value
 function findIndexOf(str, target) {
   console.log("Original String:", str);
   console.log("Index:", str.indexOf(target));
 }
 findIndexOf("Hello World", "World");
 
-// lastIndexOf
+// lastIndexOf  --> returns the index of the last occurrence of the specified value
 function findLastIndexOf(str, target) {
   console.log("Original String:", str);
   console.log("Index:", str.lastIndexOf(target));
 }
 findLastIndexOf("Hello World World", "World");
 
-// slice
+// slice --> returns a new string with the extracted part of the string
 function getSlice(str, start, end) {
   console.log("Original String:", str);
   console.log("After slice:", str.slice(start, end));
 }
 getSlice("Hello World", 0, 5);
 
-// substring
+// substring --> returns a new string with the extracted part of the string
 function getSubstring(str, start, end) {
   console.log("Original String:", str);
   console.log("After substring:", str.substring(start, end));

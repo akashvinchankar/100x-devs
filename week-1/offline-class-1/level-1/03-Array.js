@@ -14,7 +14,7 @@ function pushExample(arr, element) {
 }
 pushExample([1, 2, 3], 4);
 
-// pop()
+// pop() --> removes the last element from an array and returns that element
 function popExample(arr) {
   console.log("Original Array:", arr);
 
@@ -23,7 +23,7 @@ function popExample(arr) {
 }
 popExample([1, 2, 3]);
 
-// shift()
+// shift()  --> removes the first element from an array and returns that element
 function shiftExample(arr) {
   console.log("Original Array:", arr);
 
@@ -32,7 +32,7 @@ function shiftExample(arr) {
 }
 shiftExample([1, 2, 3]);
 
-// unshift()
+// unshift()  --> adds one or more elements to the beginning of an array and returns the new length of the array
 function unshiftExample(arr, element) {
   console.log("Original Array:", arr);
 
@@ -50,7 +50,7 @@ function concatExample(arr1, arr2) {
 }
 concatExample([1, 2, 3], [4, 5, 6]);
 
-// forEach()
+// forEach()  --> calls a function for each element in the array and does not return anything
 function forEachExample(arr) {
   console.log("Original Array:", arr);
 
@@ -60,7 +60,7 @@ function forEachExample(arr) {
 }
 forEachExample([1, 2, 3]);
 
-// map()
+// map()  --> creates a new array with the results of calling a provided function on every element in the calling array
 function mapExample(arr) {
   console.log("Original Array:", arr);
 
@@ -71,7 +71,7 @@ function mapExample(arr) {
 }
 mapExample([1, 2, 3]);
 
-// filter()
+// filter() --> creates a new array with all elements that pass the test implemented by the provided function
 function filterExample(arr) {
   console.log("Original Array:", arr);
 
@@ -82,7 +82,7 @@ function filterExample(arr) {
 }
 filterExample([1, 2, 3, 4, 5]);
 
-// find()
+// find() --> returns the value of the first element in the array that satisfies the provided testing function
 function findExample(arr) {
   console.log("Original Array:", arr);
 

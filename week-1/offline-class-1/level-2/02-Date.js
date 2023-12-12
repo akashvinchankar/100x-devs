@@ -11,7 +11,7 @@ function dateMethods() {
   console.log("Seconds:", currentDate.getSeconds());
 
   // Setting components of the date
-  currentDate.setFullYear(2022);
+  currentDate.setFullYear(2022); // Setting year to 2022
   console.log("After setFullYear:", currentDate);
 
   currentDate.setMonth(5); // Setting month to June (zero-indexed)
@@ -21,7 +21,7 @@ function dateMethods() {
   console.log("Time in milliseconds since 1970:", currentDate.getTime());
 
   const newDate = new Date(2023, 8, 15); // Creating a new date
-  console.log("New Date:", newDate);
+  console.log("New Date:", newDate); // 2023-09-14T18:30:00.000Z (Timezone is UTC)
 }
 
 // Example Usage for Date Methods

@@ -8,6 +8,9 @@ function jsonMethods(jsonString) {
   // Stringifying JavaScript object to JSON string
   let jsonStringified = JSON.stringify(parsedObject);
   console.log("After JSON.stringify():", jsonStringified);
+
+  // Accessing nested object
+  console.log("Nested Object:", parsedObject.nested);
 }
 
 // Example Usage for JSON Methods
