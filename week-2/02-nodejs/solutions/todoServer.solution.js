@@ -50,7 +50,7 @@
     if (!todo) {
       res.status(404).send();
     } else {
-      res.json(todo);
+      res.status(200).json(todo);
     }
   });
   
@@ -71,7 +71,7 @@
     } else {
       todos[todoIndex].title = req.body.title;
       todos[todoIndex].description = req.body.description;
-      res.json(todos[todoIndex]);
+      res.status(200).json(todos[todoIndex]);
     }
   });
   
