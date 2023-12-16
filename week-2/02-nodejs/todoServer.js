@@ -75,7 +75,7 @@ app.post("/todos", (req, res) => {
 });
 
 // PUT /todos/:id
-app.post("/todos/:id", (req, res) => {
+app.put("/todos/:id", (req, res) => {
   const todoIndex = todos.findIndex((t) => t.id === parseInt(req.params.id));
   if (todoIndex === -1) {
     res.status(404).send();
